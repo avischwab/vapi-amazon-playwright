@@ -1,0 +1,11 @@
+{
+  "name": "vapi-amazon-playwright",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.44.0"
+  }
+}
