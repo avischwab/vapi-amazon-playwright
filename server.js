@@ -58,4 +58,6 @@ app.post("/vapi-tools", async (req, res) => {
 });
 
 const port = process.env.PORT || 3000;
+app.get("/", (req, res) => res.status(200).send("ok"));
+app.get("/health", (req, res) => res.status(200).send("ok"));
 app.listen(port, () => console.log(`Listening on ${port}`));
